@@ -15,5 +15,8 @@ public class CopyGoogleCalendar {
 
         open("https://www.google.com"); /** открываем браузер Google.com*/
         $(By.xpath("//a[text()='Почта']")).click(); /** Нажать кнопку 'Почта' */
+        $(By.xpath("//a[text()='Войти']")).click(); /** Нажать кнопу 'Войти' */
+        Selenide.sleep(500000);
     }
+
 }
